@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+@font-face {
+    font-family: 'Roboto Thin';
+    src: url('../font/r_thin/roboto-thin-webfont.eot');
+    src: url('../font/r_thin/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/r_thin/roboto-thin-webfont.woff2') format('woff2'),
+         url('../font/r_thin/roboto-thin-webfont.woff') format('woff'),
+         url('../font/r_thin/roboto-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('../font/r_med/roboto-medium-webfont.eot');
+    src: url('../font/r_med/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/r_med/roboto-medium-webfont.woff2') format('woff2'),
+         url('../font/r_med/roboto-medium-webfont.woff') format('woff'),
+         url('../font/r_med/roboto-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Roboto Light';
+    src: url('../font/r_light/roboto-light-webfont.eot');
+    src: url('../font/r_light/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/r_light/roboto-light-webfont.woff2') format('woff2'),
+         url('../font/r_light/roboto-light-webfont.woff') format('woff'),
+         url('../font/r_light/roboto-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*logos*/
+
+.logos {
+  position: fixed;
+  top: 208px;
+  right: 45px;
+  z-index: 100;
+}
+.logos-menu {
+  list-style: none;
+}
+.logos-menu li {
+  margin-bottom: 29px;
+}
+.logos-menu a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/sprite.png) -21px 0 no-repeat;
+}
+.logos-menu .facebook {
+  background-position: -19px -19px;
+}
+.logos-menu .instagram {
+  background-position: -19px -38px;
+}
+
+.logos-menu a:hover {
+  background-position: 1px 0;
+}
+.logos-menu .facebook:hover {
+  background-position: 4px -19px;
+}
+.logos-menu .instagram:hover {
+  background-position: 4px -38px;
+}
+
+
+
+/*TOP*/
+
+.top {
+  height: 864px;
+  background: url(../img/top_bg2.jpg) top center no-repeat;
+  background-size: cover;
+  font-family: "Roboto Thin", sans-serif;
+
+}
+
+.header {
+  height: 200px;
+}
+.logo {
+  float: left;
+  margin: 39px 0 0 130px;
+}
+.header-nav {
+  float: right;
+  margin: 71px 120px 0 0px;
+}
+.header-list {
+  list-style: none;
+}
+.header-list-item {
+  display: inline-block;
+  margin-left: 38px;
+}
+.header-item-link {
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+  padding-bottom: 3px;
+}
+.header-item-link:hover {
+  color: #c43030;
+}
+.header-item-link:active {
+  border-bottom: 1px solid #c43030;
+}
+
+.clear {
+  clear: both;
+}
+/*SEARCH*/
+
+.search {
+  width: 680px;
+  background-color: green;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+/*MIDDLE*/
+
+.middle {
+  background: url(../img/middle_bg.jpg) top center no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Roboto Light', sans-serif;
+  color: white;
+}
+.container {
+  overflow: hidden;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 85%;
+  margin: auto;
+}
+.middle-header {
+  font-size: 40px;
+  padding-top: 42px;
+}
+.middle-box {
+  float: left;
+  width: 718px;
+  height: 338px;
+}
+.middle-square {
+  float: left;
+  width: 338px;
+  height: 338px;
+}
+.middle-box-v {
+  float: left;
+  width: 338px;
+  height: 718px;
+}
+
+.box {
+  margin: 20px 21px;
+  font-family: 'Roboto Light';
+  font-size: 25px;
+}
+.box-inside {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.box1 {
+  background: url('../img/box1.jpg') top center no-repeat;
+  background-size: cover;
+}
+.box1:hover {
+  background: url('../img/box1_hover.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.box2 {
+  background: url('../img/box2.jpg') top center no-repeat;
+  background-size: cover;
+}
+.box2:hover {
+  background: url('../img/box2_hover.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.box3 {
+  background: url('../img/box3.jpg') top center no-repeat;
+  background-size: cover;
+}
+.box3:hover {
+  background: url('../img/box3_hover.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.box4 {
+  background: url('../img/box4.jpg') top center no-repeat;
+  background-size: cover;
+}
+.box4:hover {
+  background: url('../img/box4_hover.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.box5 {
+  background: url('../img/box5.jpg') top center no-repeat;
+  background-size: cover;
+}
+.box5:hover {
+  background: url('../img/box5_hover.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.box6 {
+  background: url('../img/box6.jpg') top center no-repeat;
+  background-size: cover;
+}
+.box6:hover {
+  background: url('../img/box6_hover.jpg') top center no-repeat;
+  background-size: cover;
+}
+
+.box-text {
+  padding-top: 19%;
+  margin-bottom: 10%;
+}
+.square {
+  padding-top: 30%;
+  margin-bottom: 12%;
+}
+.vertical {
+  padding-top: 90%;
+  margin-bottom: 66%;
+}
+.text-add {
+  color: #c43030;
+  font-family: 'Roboto Medium';
+  font-weight: bold;
+}
+.box-details {
+  color: #c43030;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+
+
+/*BOTTOM*/
+
+.bottom {
+  height: 1212px;
+  background: url(../img/bottom_bg.jpg) top center no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  font-family: 'Roboto Light', sans-serif;
+  color: white;
+}
+.bottom-header {
+  display: inline-block;
+  padding-top: 50px;
+  margin-left: 11px;
+  font-size: 40px;
+}
+.bottom-header.header-main {
+  margin-right: 4px;
+}
+.header-add {
+  font-family: 'Roboto Medium';
+  color: #c43030;
+}
+.bottom-text {
+  margin-top: 368px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.footer {
+  width: 100%;
+  height: 98px;
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-family: "Roboto Thin", sans-serif;
+}
+.footer-gotop {
+  float: left;
+  text-decoration: none;
+  color: white;
+  margin: 35px 0 0 128px;
+  font-size: 21px;
+}
+.footer-contacts {
+  display: inline-block;
+  color: white;
+  width: 455px;
+  font-size: 21px;
+  margin: 36px 11px 0 0;
+}
+.contacts-phone {
+  float: left;
+  padding-left: 27px;
+  background: url('../img/phone.png') left center no-repeat;
+}
+.contacts-email {
+  float: right;
+  padding-left: 53px;
+  background: url('../img/mail.png') left center no-repeat;
+}
+.footer-logo {
+  float: right;
+  margin: 15px 119px 0 0;
+}

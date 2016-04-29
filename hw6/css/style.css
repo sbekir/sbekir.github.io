@@ -1,0 +1,467 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font: Arial, sans-serif;
+}
+div {
+  display: block;
+}
+.wrapper {
+  width: 912px;
+  height: 1310px;
+  min-width: 600px;
+  max-height: 80%;
+  margin: auto;
+}
+.width {
+  width: 100%;
+  height: 54px;
+}
+.contacts {
+  background-image: url('../img/phone.png');
+  background-position: left center;
+  background-repeat: no-repeat;
+  padding-left: 26px;
+  margin: 21px 0 0 9px;
+  float: left;
+  height: 21px;
+  font-family: "Arial Regular";
+  font-size: 20px;
+  color: #5e696d;
+}
+.login {
+  background-image: url('../img/autorization.png');
+  background-position: 7px center;
+  background-repeat: no-repeat;
+  padding-left: 26px;
+  float: left;
+  width: 469px;
+  height: 25px;
+  background-color: green;
+  margin-left: 23px;
+  margin-top: 17px;
+  border-radius: 3px;
+  background-color: #14496c;
+}
+.logform {
+  width: 236px;
+  float: left;
+  margin-right: 5px;
+}
+.logform_input {
+  display: inline-block;
+  margin-top: 2px;
+}
+.text {
+  height: 14px;
+  width: 110px;
+  margin-right: 2px;
+}
+.enter a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+}
+.login span {
+  color: white;
+  vertical-align: middle;
+}
+.forgot_pass a {
+  color: #bfbfbf;
+  font-size: 13px;
+}
+.forgot_pass {
+  margin-left: 14px;
+}
+.links {
+  width: 74px;
+  border-radius: 10px;
+  border: 1px solid #c1c8cb;
+  float: left;
+  height: 21px;
+  margin-top: 17px;
+  margin-left: 17px;
+  text-align: center;
+}
+.links img {
+  margin: 0 4px 0 -3px;
+}
+.links a {
+  margin-left: 3px;
+}
+.bg1 {
+  margin-left: 2px;
+}
+header {
+  height: 34px;
+  background-color: #17191b;
+  margin-left: 2px;
+  border-radius: 3px;
+  margin-top: 1px;
+}
+.nav {
+  font-size: 14px;
+  margin-left: 125px;
+  list-style: none;
+  font-family: Arial;
+  width: 490px;
+  height: 20px;
+  float: left;
+  margin: 4px 0 0 133px;
+}
+.nav li {
+  float: left;
+  padding: 5px 14px;
+  text-align: center;
+}
+.nav a {
+  color: #b1bcc0;
+  text-decoration: none;
+}
+.nav li:hover {
+  background-color: #13486b;
+  border-radius: 20px;
+  color: white;
+}
+.basket {
+  float: right;
+  width: 227px;
+  height: 58%;
+  margin-top: 8px;
+}
+.basket span {
+  font-family: "Arial Regular";
+  font-size: 13px;
+  color: #929b9f;
+  position: relative;
+  top: -5px;
+}
+.goods {
+  margin-left: 3px;
+}
+.money {
+  margin-left: 7px;
+}
+.search {
+  height: 140px;
+  margin-top: 11px;
+}
+.search_auto {
+  float: left;
+  width: 413px;
+  height: 133px;
+  border-radius: 16px;
+  margin-left: 6px;
+  border: 1px solid black;
+}
+.search_wheels {
+  float: left;
+  width: 191px;
+  height: 134px;
+  border-radius: 16px;
+  margin-left: 14px;
+  border: 1px solid black;
+}
+.search_disks {
+  float: left;
+  width: 266px;
+  height: 133px;
+  border-radius: 16px;
+  margin-left: 11px;
+  border: 1px solid black;
+}
+.search_auto form {
+  height: 115px;
+  width: 408px;
+  margin-left: 18px;
+}
+.title {
+  margin: 5px 0 5px 20px;
+  height: 10px;
+  width: 100%;
+  color: #114165;
+  font-family: "Arial Black";
+}
+.title_auto {
+  margin: -6px 0 9px 68px;
+  width: 162px;
+  height: 10px;
+  float: left;
+  word-spacing: 2px;
+}
+.title_auto span {
+  font-size: 12px !important;
+}
+.title_disks {
+  margin-top: -2px;
+  float: left;
+}
+.title_wheels {
+  margin: -4px 42px 0 0px;
+  float: right;
+}
+.title_wheels_nav {
+  margin: -3px 0 0 -11px;
+}
+.search_auto_half {
+  width: 50%;
+  height: 100px;
+  float: left;
+  margin: 1px 0 0 0;
+  font-family: Arial;
+}
+
+.search span {
+  font-size: 10px;
+  font-weight: bold;
+  float: left;
+}
+.search_auto select{
+  width: 102px;
+  float: left;
+}
+.search_auto_in {
+  width: 181px;
+  height: 15px;
+}
+.search_auto_in_text {
+  width: 76px;
+  float: left;
+}
+.text_model {
+  margin: 5px 0 0 -1px;
+}
+.text_model_2 {
+  margin-top: 3px;
+}
+.text_model_2 .add_text {
+  margin-top: 1px;
+}
+.model_auto_2 {
+  margin: -3px -1px 0 1px;
+}
+.model_auto_2 .add_text {
+  margin-top: -2px;
+}
+.made_year_2 {
+  margin: -3px 0 0 -1px;
+}
+.made_year_2 .add_text {
+  margin: -2px 0 0 2px;
+}
+.complectation_2 {
+  margin-top: 1px;
+}
+.search_auto_in_select {
+  width: 105px;
+  height: 19px;
+  float: left;
+  margin-bottom: 3px;
+}
+.search_wheels_in_select {
+  height: 19px;
+  float: left;
+  width: 47px;
+}
+.check {
+  width: 100px;
+  float: left;
+}
+.short {
+  width: 57px !important;
+}
+.search_span {
+  float: right !important;
+  margin: -10px 35px 0 0;
+  font-family: Arial;
+  font-style: italic;
+  font-size: 11px !important;
+}
+.add_text {
+  color: #77858b;
+  font-weight: normal !important;
+  font-size: 9px !important;
+}
+.add_text_model {
+  margin-top: 1px;
+}
+.search_disks_half {
+  width: 160px;
+  height: 135px;
+  float: left;
+}
+.search_disks_in {
+  width: 100%;
+  height: 20px;
+}
+.auto_model {
+  margin-top: -1px;
+}
+.auto_model .add_text {
+  margin-top: -2px;
+}
+
+.made_year {
+  margin-top: -1px;
+  margin-left: -1px;
+}
+.made_year .add_text {
+  margin-top: -2px;
+  margin-left: 1px;
+}
+.complectation {
+  margin-top: 3px;
+}
+.search_disks_in_text {
+  width: 70px;
+  height: 100%;
+  float: left;
+}
+.search_disks_in_select {
+  width: 50px;
+  height: 100%;
+  float: left;
+}
+.search_disks_half_2 {
+  width: 76px;
+  height: 135px;
+  float: left;
+  border-left: 1px solid grey;
+}
+.sidebar {
+  float: left;
+  height: 500px;
+  width: 190px;
+  margin-top: 12px;
+}
+.content {
+  float: left;
+  height: 628px;
+  width: 526px;
+  background-color: #a8b6bd;
+  margin: 10px 2px 38px 2px;
+}
+.main_title {
+  margin-top: 2px;
+  width: 182px;
+  height: 25px;
+  border: 1px solid;
+  border-radius: 13px;
+  color: #114165;
+  font-family: Verdana, Arial;
+  font-size: 13px;
+}
+.brands {
+  margin: 0 0 0 8px;
+}
+.bus_brand {
+  margin: 14px 0 -3px 19px;
+}
+.disks_brand {
+  margin: 14px 0px 24px 19px;
+}
+.title_in {
+  margin-top: 13px;
+  margin-left: 3px;
+  width: 148px;
+  height: 26px;
+  border: 1px solid;
+  border-radius: 13px;
+  color: #114165;
+  font-family: Verdana, Arial;
+  font-size: 13px;
+}
+.title_right {
+  width: 135px;
+}
+.list_in {
+  margin: 4px 0 -13px 41px;
+  line-height: 24px;
+}
+.list_in a{
+  text-decoration: none;
+  color: #465961;
+  font-family: Verdana, Arial;
+  font-size: 13px;
+  list-style: circle;
+}
+.list_in li:hover{
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: bold;
+  color: #0c3256;
+}
+.check_in p {
+  margin-top: 5px;
+  height: 20px;
+  margin-left: 12px;
+}
+.check_in label {
+  margin-left: 7px;
+  color: #465961;
+  font-size: 13px;
+  font-family: Verdana, Arial;
+}
+.button {
+  width: 50px;
+  height: 15px;
+  background-color: blue;
+}
+.button_a {
+  text-decoration: none;
+  width: 50px;
+  height: 15px;
+}
+.item {
+  width: 136px;
+  height: 180px;
+  line-height: 15px;
+  margin: 13px 7px 10px 24px;
+  float: left;
+}
+.item_in {
+  height: 128px;
+  width: 100%;
+  border: 1px solid;
+  border-radius: 9px;
+  background-color: white;
+}
+.companies {
+  width: 74%;
+  clear: both;
+  margin: 21px auto;
+}
+footer {
+  margin-left: 1px;
+  width: 911px;
+  height: 100px;
+  background-color: #213a4d;
+  font-family: Arial;
+  text-align: center;
+  font-size: 12px;
+}
+.nav1 {
+  list-style: none;
+  display: table;
+  text-align: center;
+  margin: 0 auto 15px;
+  padding-top: 8px;
+}
+.nav1 li{
+  color: white;
+  display: table-cell;
+  padding-left: 11px;
+}
+.nav1 a {
+  text-decoration: none;
+
+}
+.nav1 li:hover {
+  color: #52abcb;
+}
+footer span {
+  color: #d04435;
+  font-size: 10px;
+}
