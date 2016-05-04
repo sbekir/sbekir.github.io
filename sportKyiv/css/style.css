@@ -98,6 +98,9 @@
   float: left;
   margin: 39px 0 0 130px;
 }
+.logo a {
+  display: block;
+}
 .header-nav {
   float: right;
   margin: 71px 120px 0 0px;
@@ -125,15 +128,73 @@
 .clear {
   clear: both;
 }
-/*SEARCH*/
 
-.search {
-  width: 680px;
-  background-color: green;
-  margin: 0 auto;
+.top-text {
+  width: 45%;
+  margin: 0 auto 40px;
   text-align: center;
+  color: white;
+  font-family: 'Roboto Thin';
+  font-size: 20px;
+}
+.top-text-add {
+  color: #c43030;
+  font-family: 'Roboto Medium';
 }
 
+/*SEARCH*/
+
+.dropdown {
+  width: 675px;
+  height: 300px;
+  margin: 0 auto;
+}
+.search {
+  float: left;
+  width: 30px;
+  text-align: center;
+}
+.region {
+  float: left;
+  width: 190px;
+  margin: 0 23%;
+}
+.sport {
+  float: left;
+  width: 142px;
+}
+.dropdown-list {
+  list-style: none;
+
+}
+.list-item {
+  position: relative;
+
+}
+.list-link {
+  font-size: 25px;
+}
+.dropdown-list a {
+  text-decoration: none;
+  color: white;
+}
+.list-inside {
+  list-style: none;
+  position: absolute;
+  display: none;
+}
+.list-link:hover {
+  color: #c43030;
+  border-bottom: 1px solid #c43030;
+}
+.list-link:active {
+}
+.list-item:hover > .list-inside {
+  display: block;
+}
+.list-inside li a:hover {
+  color: #c43030;
+}
 
 /*MIDDLE*/
 
@@ -149,7 +210,7 @@
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-  width: 85%;
+
   margin: auto;
 }
 .middle-header {
@@ -287,7 +348,7 @@
   color: #c43030;
 }
 .bottom-text {
-  margin-top: 368px;
+  margin: 27% 11% 0 11%;
   font-size: 24px;
   line-height: 30px;
 }
@@ -301,6 +362,27 @@
   text-align: center;
   font-family: "Roboto Thin", sans-serif;
 }
+
+.bottom-list {
+  list-style: none;
+}
+
+.ontop {
+  text-decoration: none;
+}
+.bottom-list-item {
+
+}
+.phone {
+  padding-left: 27px;
+  background: url('../img/phone.png') left center no-repeat;
+}
+.mail {
+  padding-left: 27px;
+  background: url('../img/mail.png') left center no-repeat;
+}
+
+
 .footer-gotop {
   float: left;
   text-decoration: none;
@@ -328,4 +410,118 @@
 .footer-logo {
   float: right;
   margin: 15px 119px 0 0;
+}
+
+
+.tablet {
+  display: none;
+}
+
+
+@media (max-width: 1140px) {
+  .middle-box-v {
+    height: 338px;
+  }
+  .vertical {
+    padding-top: 30%;
+    margin-bottom: 12%;
+  }
+}
+
+@media (max-width: 970px) {
+
+/*FOOTER*/
+
+  .footer-contacts {
+    width: 185px;
+    margin: 25px 11px 0 0;
+  }
+  .contacts-email {
+    padding-left: 45px;
+  }
+
+
+}
+
+
+@media (max-width: 790px) {
+  /*TOP*/
+  .header {
+    height: 270px;
+    text-align: center;
+  }
+  .logo {
+    float: none;
+    margin: 0 0 3% 0;
+    padding: 5% 0 0 0;
+  }
+  .header-nav {
+    float: none;
+    margin: 0 0 0 0;
+  }
+  .header-list-item {
+  display: block;
+  margin: 0 0 0 0;
+  }
+  .list-inside {
+    visibility: hidden;
+  }
+  .list-item:hover > .list-inside {
+    visibility: visible;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  /*MIDDLE*/
+  .box {
+    width: 80% !important;
+    height: auto;
+  }
+  .box-details {
+    display: block;
+    margin-bottom: 5%;
+  }
+  .box-text {
+    margin: 0 5% 10% 5%;
+  }
+  .text-main {
+    display: inline;
+  }
+  .text-add {
+    display: inline;
+  }
+  .square {
+    padding-top: 25%;
+  }
+  .vertical {
+    padding-top: 19%;
+  }
+}
+
+@media (max-width: 710px) {
+
+  /*FOOTER*/
+
+  .laptop {
+    display: none;
+  }
+  .footer-nav {
+    display: block;
+    width: 170px;
+    margin: 0 auto;
+  }
+
+  .footer {
+    height: 170px;
+  }
+  .bottom-list-item {
+    margin-top: 5px;
+  }
+
+  .ontop {
+    color: white;
+  }
+
 }
