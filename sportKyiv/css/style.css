@@ -47,7 +47,7 @@
 .logos {
   position: fixed;
   top: 208px;
-  right: 45px;
+  right: 4%;
   z-index: 100;
 }
 .logos-menu {
@@ -210,7 +210,7 @@
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-
+  width: 1140px;
   margin: auto;
 }
 .middle-header {
@@ -370,6 +370,9 @@
 .ontop {
   text-decoration: none;
 }
+.footer-gotop:hover {
+  color: #c43030;
+}
 .bottom-list-item {
 
 }
@@ -426,6 +429,12 @@
     padding-top: 30%;
     margin-bottom: 12%;
   }
+  .container {
+    width: 761px;
+  }
+  .top-text {
+    width: 55%;
+  }
 }
 
 @media (max-width: 970px) {
@@ -439,7 +448,9 @@
   .contacts-email {
     padding-left: 45px;
   }
-
+  .top-text {
+    width: 65%;
+  }
 
 }
 
@@ -469,15 +480,28 @@
   .list-item:hover > .list-inside {
     visibility: visible;
   }
+  .top-text {
+    width: 70%;
+  }
+  .dropdown {
+    width: 535px;
+  }
+  .region {
+    margin: 0 16%;
+  }
 }
 
 
 @media (max-width: 768px) {
 
   /*MIDDLE*/
+  .container {
+    width: 100%;
+  }
   .box {
     width: 80% !important;
     height: auto;
+    margin: 20px 10%;
   }
   .box-details {
     display: block;
@@ -522,6 +546,45 @@
 
   .ontop {
     color: white;
+  }
+
+}
+
+
+@media (max-width: 622px) {
+
+  .dropdown {
+    width: 431px;
+  }
+  .region {
+    margin: 0 8%;
+  }
+
+}
+
+/*@media (max-width: 505px) {
+
+  .dropdown {
+    width: 394px;
+  }
+  .region {
+    margin: 0 4%;
+  }
+
+}*/
+
+
+@media (max-width: 505px) {
+
+  .logos {
+    right: 1%;
+  }
+
+  .dropdown {
+    width: 378px;
+  }
+  .region {
+    margin: 0 2%;
   }
 
 }
