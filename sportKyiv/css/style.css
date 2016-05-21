@@ -85,10 +85,10 @@
 
 .top {
   height: 864px;
-  background: url(../img/top_bg2.jpg) top center no-repeat;
+  background: url(../img/top_bg1.jpg) top center no-repeat;
   background-size: cover;
   font-family: "Roboto Thin", sans-serif;
-
+  -webkit-transition: background-image 0.5s ease-in-out;
 }
 
 .header {
@@ -396,9 +396,9 @@
 .footer-contacts {
   display: inline-block;
   color: white;
-  width: 455px;
+  width: 530px;
   font-size: 21px;
-  margin: 36px 11px 0 0;
+  margin: 36px 0 0 0;
 }
 .contacts-phone {
   float: left;
@@ -435,16 +435,16 @@
   .top-text {
     width: 55%;
   }
+  .footer-contacts {
+    width: 250px;
+    margin: 25px 0 0 0;
+  }
 }
 
 @media (max-width: 970px) {
 
 /*FOOTER*/
 
-  .footer-contacts {
-    width: 185px;
-    margin: 25px 11px 0 0;
-  }
   .contacts-email {
     padding-left: 45px;
   }
@@ -524,7 +524,7 @@
   }
 }
 
-@media (max-width: 710px) {
+@media (max-width: 854px) {
 
   /*FOOTER*/
 
@@ -533,7 +533,7 @@
   }
   .footer-nav {
     display: block;
-    width: 170px;
+    width: 250px;
     margin: 0 auto;
   }
 
@@ -547,7 +547,9 @@
   .ontop {
     color: white;
   }
-
+  .ontop:hover {
+    color: #c43030;
+  }
 }
 
 
